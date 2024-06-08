@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./adminlogin.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+</head>
+<body>
+    <header>
+        <span class="heading">
+        <img src="../images/tulogo.png" alt="logo" class="tulogo">
+        <h1>Campus Horticulture Information System</h1>
+        </span>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>  
+        <a href="./about.html">About Us</a>   
+        <a href="./event.php">Events</a>
+        <a href="./volunteer.php">Volunteers</a>
+        <a href="./adminlogin.html">Admin</a>
+       
+        <a href="./contact.html">Contact Us</a>
+    </nav>
+    <main id="admin-login">
+        <div class="login-container">
+            <form class="login-form" method="POST" action="adminlogin.php">
+                <h2 class="form-title">Admin Login</h2>
+                <div class="input-group">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </div>
+        
+
+        
+    </main>
+    <footer>
+        <p id="footer">Tezpur University &copy; 2024</p>
+    </footer>
+
+    <script>
+        document.querySelector('.login-form').addEventListener('submit', function (e) {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            if (!email || !password) {
+                alert('Please fill in both fields.');
+                e.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>

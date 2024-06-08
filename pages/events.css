@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background for contrast */
+}
+
+header {
+    background-color: rgb(10, 100, 5);
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Header shadow */
+}
+
+.tulogo {
+    width: 70px;
+    height: 70px;
+    align-items: end;
+    margin: 1rem 4rem 1rem 1rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(60, 60, 133);
+    padding: 5px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nav shadow */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 12px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: rgb(11, 11, 72);
+}
+
+footer {
+    background-color: rgb(10, 100, 5);
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+#footer {
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Adjust the spacing between images */
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.image-row img {
+    height: 200px; /* Adjust the height */
+    width: auto; /* Maintain the aspect ratio */
+}
+
+/* New styles for the volunteer table */
+#event {
+    margin-top: 20px;
+}
+
+#event h2 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#event table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Table shadow */
+    border-radius: 10px;
+    overflow: hidden; /* To apply rounded corners to the table */
+}
+
+#event th, #event td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#event th {
+    background-color: rgb(60, 60, 133);
+    color: #fff;
+}
+
+#event tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#event tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgb(60, 60, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+a:hover {
+    background-color: rgb(11, 11, 72);
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(10, 100, 5);
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.tulogo{
+    width: 70px;
+    height: 70px;
+    align-items: end;
+    margin: 1rem 4rem 1rem 1rem;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(60, 60, 133);
+    padding: 5px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 12px;
+}
+nav a:hover {
+    background-color: rgb(11, 11, 72);
+}
+footer {
+    background-color: rgb(10, 100, 5);
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+#footer{
+    color: #fff;
+}
+      
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+        }
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+        }
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+        }
+
+    
+
+
+main .contact-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+    align-content: center;
+    
+}
+
+.contact-info .info-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #4CAF50;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info p strong {
+    color: #4CAF50;
+}
